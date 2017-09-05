@@ -42,3 +42,60 @@ ul, li, p {
 /** {
 	border: 1px solid red;
 }*/
+#first {
+	padding-top: 170px;
+	padding-bottom: 175px;
+	background: #3f4049;
+	color: #fff;
+}
+
+.glav {
+	width: 85%;
+	margin: 0px auto 0px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Libre Baskerville';
+	font-size: 60px;
+	font-weight: 400;
+}
+.btn_works {
+	background: #fc5f45;
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	border: 1px solid #fc5f45;
+	border-radius: 55px;
+	padding: 16px 46px;
+	margin: 47px auto 0px;
+}
+.btn_works:hover {
+	background: #c44a36;
+	border: 1px solid #c44a36;
+}
+.advantage{
+	margin-top: 82px;
+}
+
+.advantage_fixed {
+	text-align: center;
+	width: 245px;
+}
+.advantage_text {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-top: 36px;
+}
+.first {
+	color: #38c695;
+}
+.second {
+	color: #b27cf5;
+}
+.third {
+	color: #feb960;
+}
