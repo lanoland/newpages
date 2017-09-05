@@ -1,0 +1,44 @@
+body {
+	color: #616161;
+	font-family: 'Poppins';
+	font-size: 15px;
+}
+header {
+	background: #fff;
+}
+.logo {
+	height: 75px;
+
+}
+.logo_img {
+	font-size: 35px;
+}
+span {
+	color: #fc5f45;
+}
+ul, li, p {
+	margin: 0;
+	padding: 0;
+}
+.menu {
+	height: 75px;
+}
+.menu li {
+	display: inline-block;
+	margin-right: 18px;
+}
+.menu li:last-child {
+	margin-right: 0px;
+}
+.menu_a li a {
+	font-size: 14px;
+	color: #616161;
+	font-weight: 600;
+}
+.menu_a li a:hover {
+	text-decoration: none;
+	color: #fc5f45;
+}
+/** {
+	border: 1px solid red;
+}*/
