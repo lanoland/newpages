@@ -70,6 +70,7 @@ h1 {
 	border-radius: 55px;
 	padding: 16px 46px;
 	margin: 47px auto 0px;
+	cursor: pointer;
 }
 .btn_works:hover {
 	background: #c44a36;
