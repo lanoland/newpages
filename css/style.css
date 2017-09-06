@@ -116,7 +116,7 @@ h1 {
 	position: absolute;
 	top: 10%;
 	left: 42%;
-	background-image: linear-gradient(to right, #fc5f45 25%);
+	background-image: linear-gradient(to right, #fc5f45 25%, #38c695 25%, #b27cf5 25%, #feb960 25%);
 	background-size: 100% 10px;
 	background-repeat: no-repeat;
 	background-position: center bottom;
