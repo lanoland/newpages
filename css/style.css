@@ -179,3 +179,25 @@ h3 {
 .threener {
 	border-bottom: 3px solid #feb960;
 }
+#fourth {
+	background: #3f4049;
+	padding-top: 130px;
+	padding-bottom: 150px;
+}
+.explore {
+	text-align: center;
+}
+.explore_glav {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 400;
+}
+.explore_img {
+	margin-top: 35px;
+}
+.explore_text {
+	margin-top: 35px;
+	font-size: 15px;
+	color: #fff;
+	font-weight: 400;
+}
