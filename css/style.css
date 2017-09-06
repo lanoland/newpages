@@ -201,3 +201,9 @@ h3 {
 	color: #fff;
 	font-weight: 400;
 }
+.projects {
+	margin-top: 80px;
+}
+.projects_one {
+	position: relative;
+}
