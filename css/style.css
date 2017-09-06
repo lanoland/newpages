@@ -6,20 +6,16 @@ body {
 header {
 	background: #fff;
 }
-.logo {
-	height: 75px;
 
-}
-.logo_img {
-	font-size: 35px;
-}
-span {
-	color: #fc5f45;
-}
 ul, li, p {
 	margin: 0;
 	padding: 0;
 }
+
+.logo {
+	height: 75px;
+}
+
 .menu {
 	height: 75px;
 }
