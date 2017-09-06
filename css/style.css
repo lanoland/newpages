@@ -11,6 +11,9 @@ ul, li, p {
 	margin: 0;
 	padding: 0;
 }
+h2, h3 {
+	color: #313131;
+}
 
 .logo {
 	margin-top: 30px;
@@ -117,22 +120,53 @@ h1 {
 	top: 10%;
 	left: 42%;
 	background-image: linear-gradient(to right, #fc5f45 25%, #38c695 25%, #b27cf5 25%, #feb960 25%);
-
-	background-size: 100% 30px;
+	background-size: 100% 3px;
 	background-repeat: no-repeat;
 	background-position: center bottom;
 }
-h2 {
+.glav2_1 {
 	font-family: 'Libre Baskerville';
 	font-weight: 700;
 	font-size: 50px;
-	color: #313131;
 }
-p {
+.glav2_2 {
 	font-family: 'Poppins';
 	font-weight: 400;
 	font-size: 15px;
 	margin-top: 35px;
 	line-height: 1.8em;
-
+}
+#third {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.glav3 {
+	text-align: center;
+}
+h2 {
+	font-family: 'Libre Baskerville';
+	font-weight: 700;
+	font-size: 50px;
+}
+p {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.post {
+	text-align: center;
+	width: 90%;
+	border-bottom: 3px solid #fc5f45;
+	padding-bottom: 50px;
+	margin-top: 135px;
+}
+h3 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 30px;
+}
+.post_text {
+	font-size: 15px;
+	font-weight: 400;
 }
