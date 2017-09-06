@@ -170,3 +170,12 @@ h3 {
 	font-size: 15px;
 	font-weight: 400;
 }
+.oner {
+	border-bottom: 3px solid #38c695;
+}
+.twoner {
+	border-bottom: 3px solid #b27cf5;
+}
+.threener {
+	border-bottom: 3px solid #feb960;
+}
