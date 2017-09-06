@@ -13,11 +13,13 @@ ul, li, p {
 }
 
 .logo {
-	height: 75px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .menu {
-	height: 75px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .menu li {
 	display: inline-block;
@@ -78,7 +80,7 @@ h1 {
 
 .advantage_fixed {
 	text-align: center;
-	width: 245px;
+	width: 255px;
 }
 .advantage_text {
 	font-size: 18px;
@@ -95,4 +97,41 @@ h1 {
 }
 .third {
 	color: #feb960;
+}
+#second {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.cube {
+	width: 555px;
+	height: 700px;
+	border: 10px solid #9b9999;
+	font-size: 57px;
+	background: linear-gradient(to top, #daaca4, #cccccc);
+}
+.glav2 {
+	width: 648px;
+	padding: 90px 80px 100px;
+	background: #fff;
+	position: absolute;
+	top: 10%;
+	left: 42%;
+	background-image: linear-gradient(to right, #fc5f45 25%);
+	background-size: 100% 10px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+h2 {
+	font-family: 'Libre Baskerville';
+	font-weight: 700;
+	font-size: 50px;
+	color: #313131;
+}
+p {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 15px;
+	margin-top: 35px;
+	line-height: 1.8em;
+
 }
