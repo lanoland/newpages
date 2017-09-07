@@ -7,7 +7,7 @@ header {
 	background: #fff;
 }
 
-ul, li, p {
+p {
 	margin: 0;
 	padding: 0;
 }
@@ -15,31 +15,26 @@ h2, h3 {
 	color: #313131;
 }
 
-.logo {
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
+
 
 .menu {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
-.menu li {
-	display: inline-block;
-	margin-right: 18px;
-}
-.menu li:last-child {
+
+.menu a:last-child {
 	margin-right: 0px;
 }
-.menu_a li a {
+.menu a {
+	margin-right: 10px;
 	font-size: 14px;
-	color: #616161;
+	color: #272727;
 	font-weight: 600;
 }
-.menu_a li a:hover {
-	text-decoration: none;
+.menu a:hover {
 	color: #fc5f45;
 }
+
 /** {
 	border: 1px solid red;
 }*/
