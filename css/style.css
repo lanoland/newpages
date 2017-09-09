@@ -200,8 +200,8 @@ h3 {
 }
 .projects {
 	margin-top: 80px;
-	position: relative;
 	height: 280px;
+	position: relative;
 }
 /** {
 	border: 1px solid red;
@@ -211,29 +211,35 @@ h3 {
 	background: url("../img/single.jpg") no-repeat center top;
 	height: 100%;
 	width: 100%;
-	position: absolute;
-	top: 0px;
-	z-index: 3;
 }
 .numbers {
 	color: #313131;
 	font-size: 18px;
 	font-weight: 500;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	text-align: center;
 	width: 100%;
-	margin: 0;
+	height: 20%;
+	background: rgba( 255, 255, 255, 1);
 	position: absolute;
-	bottom: 0px;
-	z-index: 2;
-	background: #fff;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	transition: all .5s;
+	padding-top: 14px;
 }
-
-.project_one_img:hover {
-	z-index: 1;
-	background: #020202;
+.oblako {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	opacity: 0;
+	background: rgba( 0, 0, 0, 0.5) url("../img/plus.png") no-repeat center center;
+	transition: all .5s;
 }
-.numbers:hover {
-	z-index: 3;
+.projects:hover .numbers {
+	opacity: 1;
+}
+.projects:hover .oblako {
+	opacity: 1;
 }
