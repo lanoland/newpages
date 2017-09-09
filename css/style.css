@@ -199,6 +199,7 @@ h3 {
 	font-weight: 400;
 }
 .projects {
+	padding: 0;
 	margin-top: 80px;
 	height: 280px;
 	position: relative;
@@ -207,10 +208,39 @@ h3 {
 	border: 1px solid red;
 }*/
 
-.project_one_img {
-	background: url("../img/single.jpg") no-repeat center top;
+.project_img {
+	margin: 0;
+	padding: 0;
+	position: absolute;
 	height: 100%;
 	width: 100%;
+}
+.project_img1 {
+	background: url("../img/item1.jpg") no-repeat center top;
+}
+.project_img2 {
+	background: url("../img/item2.jpg") no-repeat center top;
+}
+.project_img3 {
+	background: url("../img/item3.jpg") no-repeat center top;
+}
+.project_img4 {
+	background: url("../img/item4.jpg") no-repeat center top;
+}
+.project_img5 {
+	background: url("../img/item5.jpg") no-repeat center top;
+}
+.project_img6 {
+	background: url("../img/item6.jpg") no-repeat center top;
+}
+.project_img7 {
+	background: url("../img/item7.jpg") no-repeat center top;
+}
+.project_img8 {
+	background: url("../img/item8.jpg") no-repeat center top;
+}
+.project_img9 {
+	background: url("../img/item9.jpg") no-repeat center top;
 }
 .numbers {
 	color: #313131;
@@ -228,15 +258,18 @@ h3 {
 	padding-top: 14px;
 }
 .oblako {
+	margin: 0;
+	padding: 0;
 	position: absolute;
 	top: 0;
-	left: 0;
 	width: 100%;
 	height: 80%;
 	opacity: 0;
 	background: rgba( 0, 0, 0, 0.5) url("../img/plus.png") no-repeat center center;
 	transition: all .5s;
+	max-width: 360px;
 }
+
 .projects:hover .numbers {
 	opacity: 1;
 }
