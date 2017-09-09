@@ -4,7 +4,7 @@ body {
 	font-size: 15px;
 }
 header {
-	background: #fff;
+	
 }
 
 p {
@@ -14,25 +14,25 @@ p {
 h2, h3 {
 	color: #313131;
 }
-
-
-
 .menu {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding: 0px;
 }
 
-.menu a:last-child {
-	margin-right: 0px;
-}
-.menu a {
-	margin-right: 10px;
+.menu_style {
+	padding: 10px 5px;
 	font-size: 14px;
-	color: #272727;
 	font-weight: 600;
+	text-align: center;
+	line-height: 1em;;
 }
-.menu a:hover {
-	color: #fc5f45;
+.menu_style:last-child {
+	padding-right: 0px;
+}
+.nav-link {
+	color: #272727 !important;
+}
+.nav-link:hover {
+	color: #fc5f45 !important;
 }
 
 /** {
@@ -138,6 +138,8 @@ h1 {
 .glav3 {
 	text-align: center;
 }
+
+
 h2 {
 	font-family: 'Libre Baskerville';
 	font-weight: 700;
