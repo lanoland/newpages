@@ -114,7 +114,7 @@ h1 {
 	position: absolute;
 	top: 10%;
 	left: 42%;
-	background-image: linear-gradient(to right, #fc5f45 25%, #38c695 25%, #b27cf5 25%, #feb960 25%);
+	background-image: linear-gradient(to right, #fc5f45 25%, #38c695 25%, #38c695 50%, #b27cf5 50%, #b27cf5 75%, #feb960 75%, #feb960 100%);
 	background-size: 100% 3px;
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -275,4 +275,43 @@ h3 {
 }
 .projects:hover .oblako {
 	opacity: 1;
+}
+#forma {
+	background: #cccccc;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.forma {
+	width: 780px;
+	text-align: center;
+	margin: 80px auto 0px auto;
+}
+input[type="text"] {
+	width: 360px;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 25px;
+	text-align: center;
+	color: #616161;
+	font-size: 16px;
+	font-weight: 400;
+}
+input[type="text"]:nth-child(1) {
+	margin-right: 30px;
+}
+input[type="text"]:nth-child(4) {
+	margin-right: 30px;
+}
+textarea {
+	width: 750px;
+	height: 200px;
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+	color: #616161;
+	padding-top: 15px;
+	font-size: 16px;
+	font-weight: 400;
 }
